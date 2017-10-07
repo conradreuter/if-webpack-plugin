@@ -1,0 +1,35 @@
+{
+  "name": "if-webpack-plugin",
+  "version": "1.0.2",
+  "description": "Conditionally include Webpack plugins.",
+  "author": "Conrad Reuter <jacob.conrad.reuter@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conradreuter/if-webpack-plugin"
+  },
+  "bugs": {
+    "url": "https://github.com/conradreuter/if-webpack-plugin/issues"
+  },
+  "keywords": [
+    "webpack",
+    "if",
+    "conditional",
+    "plugin"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "@types/webpack": "^3.0.13"
+  },
+  "devDependencies": {
+    "typescript": "^2.5.3"
+  }
+}
