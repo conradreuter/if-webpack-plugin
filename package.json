@@ -27,9 +27,9 @@
     "prepublish": "npm run build"
   },
   "dependencies": {
-    "@types/webpack": "^3.0.13"
   },
   "devDependencies": {
+    "@types/webpack": "^3.0.13",
     "typescript": "^2.5.3"
   }
 }
