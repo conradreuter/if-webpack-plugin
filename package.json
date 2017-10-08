@@ -1,6 +1,6 @@
 {
   "name": "if-webpack-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Conditionally include Webpack plugins.",
   "author": "Conrad Reuter <jacob.conrad.reuter@gmail.com>",
   "license": "MIT",
@@ -26,8 +26,7 @@
     "build": "tsc",
     "prepublish": "npm run build"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/webpack": "^3.0.13",
     "typescript": "^2.5.3"
