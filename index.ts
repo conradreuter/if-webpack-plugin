@@ -3,7 +3,7 @@ import { Compiler, Plugin } from 'webpack'
 /**
  * Conditionally includes Webpack plugins.
  */
-export default class IfPlugin implements Plugin {
+class IfPlugin implements Plugin {
 
   /**
    * @param condition
@@ -34,3 +34,5 @@ export default class IfPlugin implements Plugin {
     }
   }
 }
+
+export = IfPlugin
