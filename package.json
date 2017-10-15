@@ -1,6 +1,6 @@
 {
   "name": "if-webpack-plugin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Conditionally include Webpack plugins.",
   "author": "Conrad Reuter <jacob.conrad.reuter@gmail.com>",
   "license": "MIT",
